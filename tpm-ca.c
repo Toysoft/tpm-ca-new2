@@ -38,7 +38,7 @@
 #include <openssl/bn.h>
 #include <openssl/sha.h>
 #include <openssl/x509_vfy.h>
-#include <tpmd.h>
+#include "tpmd.h"
 
 #if !defined(TPMD_API_VERSION)
 #define TPMD_CMD_GET_DATA_V2	0x0011
